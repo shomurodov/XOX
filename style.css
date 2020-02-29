@@ -1,0 +1,39 @@
+body{
+	background-color: #151b2f;
+	display: inline-block;
+}
+#games{
+    width: 270px;
+    height: 270px;
+    background-color: black;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+.game{
+    width: 90px;
+    height: 90px;
+    float: left;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    text-transform: uppercase; 
+
+}
+p{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 43%;
+}
+button{
+	position: absolute;
+    left: 40%;
+    top: 60%;
+}
+button:active{
+	box-shadow: 1px 1px 2px red;
+}
